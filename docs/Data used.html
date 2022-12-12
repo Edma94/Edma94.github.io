@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Edwige Molou</title>
+<title>Edwige Molou - Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -62,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -79,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link" href="./index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -119,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Conclusion</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Data used.html">
+    <a class="nav-link active" href="./Data used.html" aria-current="page">
  <span class="menu-text">Data</span></a>
   </li>  
 </ul>
@@ -132,50 +133,30 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="mypic.jpeg" class="about-image
-  round " style="height: 15em; width: 15em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Edwige Molou</h1>
+<h1 class="title">Data</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
 </header>
-    <div class="about-links">
-  <a href="mailto:edmaprecia@gmail.com" class="about-link">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://www.linkedin.com/in/edwige-molou-57209a7b/" class="about-link">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="/resume.pdf" class="about-link">
-    <i class="bi bi-file-text"></i>
-     <span class="about-link-text">resume</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="ppc">
-<p>I recently learned R, so I wanted to give it a shot by creating my first website for my Program Evaluation Final Project on an Afterschool program. yayyy!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="afterschool.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">After School program</figcaption><p></p>
-</figure>
-</div>
-</div></div>
-</div>
 
-
+<p><a href="Afterschool_program_data.csv">After School program</a></p>
 
 
 
@@ -200,6 +181,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
